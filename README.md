@@ -34,7 +34,6 @@ Ensure you have the following installed:
 
     ```bash
    https://github.com/Ankitamishra17/Dhruva_Astronomy_Club.git
-    cd dhruva-club
     ```
 
 2.  **Install dependencies:**
@@ -44,7 +43,7 @@ Ensure you have the following installed:
 
 ###  Running the Server
 
-Start the development server with Hot Module Replacement (HMR):
+Start the development server with Hot Module Replacement:
 
 ```bash
 npm run dev

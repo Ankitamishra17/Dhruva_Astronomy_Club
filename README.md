@@ -32,7 +32,7 @@ Ensure you have the following installed:
 
 1.  **Clone the repository:**
 
-    ```bash
+ ```bash
    https://github.com/Ankitamishra17/Dhruva_Astronomy_Club.git
     ```
 

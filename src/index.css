@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+@theme {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --color-primary: #FFFFFF;
+    --color-secondary: #CFCFCF;
+}
+
+@layer base {
+    body {
+        background-image: url('/star-background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-family: var(--font-poppins);
+        color: var(--color-primary);
+        overflow-x: hidden;
+        @apply bg-black;
+        /* Fallback */
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-montserrat);
+    }
+}
+
+/* Custom Utilities if needed */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-glow {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
